@@ -16,6 +16,12 @@
 
 [Items to discuss.]
 
+## Standup
+
+* What you’ve been working on
+* What you will work on
+* Any blockages
+
 ## Action Items
 
 [Takeaway tasks to complete.]
