@@ -49,3 +49,148 @@
 .select-combine1.select-combine2 {
     color: blue;
 }
+
+.comments {
+	/* This is a single-line comment */
+}
+
+.colors1 {
+	color: rgb(0, 26, 255)
+}
+
+.colors2 {
+	color: rgba(0, 26, 255, 0.75)
+}
+
+
+.colors3 {
+	color: #444
+}
+
+
+.colors4 {
+	color: #C1E8A8;
+}
+
+
+.colors5 {
+	color: hsl(0, 100%, 50%)
+}
+
+
+.colors6 {
+	color: hsla(0, 100%, 50%, 75%)
+}
+
+
+.colors7 {
+	color: green;
+}
+
+
+.backgrounds {
+	background-color: lightblue;
+}
+
+.borders {
+	border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.unit1 {
+    height: 1rem;
+    width: 1em;
+    border-width: 5%;
+}
+
+.unit2 {
+	height: 10px;
+    width: 10mm;
+    border-width: 1pt;
+}
+
+.margin1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.margin2 {
+	margin: 5px;
+}
+
+.margin3 {
+	margin: auto;
+}
+
+.padding1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.padding2 {
+	padding: 5px;
+}
+
+.height-width {
+    height: 40px;
+    width: 100px;
+}
+
+.text {
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.fonts {
+    font-family: 'DM-Sans', sans-serif;
+}
+
+.display1 {
+	display: block;
+}
+
+.display2 {
+	display: inline-block;
+}
+
+.max-width-min-width {
+    max-width: 1000px;
+    min-width: 100px;
+    width: 100%;
+    background-color: orange;
+}
+
+.position1 {
+	position: relative;
+}
+
+.position2 {
+	position: static;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    grid-area: span;
+}
+
+@media screen and (max-width: 992px) {
+    .media-query {
+        background-color: red;
+    }
+}
