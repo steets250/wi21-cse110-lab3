@@ -1,3 +1,51 @@
 .cssinc-external {
     color: blue;
 }
+
+.select-class {
+    color: blue;
+}
+
+#select-id {
+    color: blue;
+}
+
+.select-universal * {
+    color: blue;
+}
+
+.select-element p {
+    color: blue;
+}
+
+[attribute=foo]{
+    color: blue;
+}
+
+.select-hover:hover{
+    color: blue;
+}
+
+.select-list1, .select-list2 {
+    color: blue;
+}
+
+.select-descendant1 .select-descendant2 {
+    color: blue;
+}
+
+.select-child1 > .select-child2 {
+    color: blue;
+}
+
+.select-general1 ~ .select-general2 {
+    color: blue;
+}
+
+.select-adjacent1 + .select-adjacent2 {
+    color: blue;
+}
+
+.select-combine1.select-combine2 {
+    color: blue;
+}
