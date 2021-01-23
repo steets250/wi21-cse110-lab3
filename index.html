@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Steven's Guide to HTML Elements</title>
+      <title>Steven's Guide to HTML Elements and CSS Styling</title>
       <meta charset="UTF-8">
       <meta name="description" content="Steven Steiner's Lab 2 for CSE 110">
       <meta name="keywords" content="UCSD, CSE 110, HTML">
       <meta name="author" content="Steven Steiner">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="./index.css">
+      <style>.cssinc-internal {color: blue;}</style>
    </head>
    <body>
       <header>
-         <h1>Steven's Guide to HTML Elements</h1>
+         <h1>Steven's Guide to HTML Elements and CSS Styling</h1>
          <p>Here is my explanation to the basic usage of standard HTML elements.</p>
+         <p>Check the lower part of the page for CSS usage.</p>
          <p>All elements listed are either used in the creation of the guide or are previded below their corresponding description.</p>
          <p>I hope you find it useful!</p>
       </header>
       <main>
+         <h1>HTML</h1>
          <div>
             <h2>Main root</h2>
             <h3>&lt;html&gt;</h3>
@@ -287,6 +290,14 @@
             <h3>&lt;template&gt;</h3>
             <p>The template tag is used to contain HTML elements that are displayed as a result of a Javascript call, and aren't immediately visible.</p>
             <template>Here is an example of content that is contained in a template tag.</template>
+         </div>
+         <h1>CSS</h1>
+         <div>
+            <h2>CSS Inclusion</h2>
+            <p>There are three ways to include CSS.</p>
+            <p style="color:blue;">The first way is with inline CSS, used to make this line blue.</p>
+            <p class="cssinc-internal">The second way is with internal CSS with &lt;style&gt;, used to make this line blue.</p>
+            <p class="cssinc-external">The third way is with external CSS in a stylesheet, used to make this line blue.</p>
          </div>
       </main>
       <footer>
