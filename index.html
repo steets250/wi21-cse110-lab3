@@ -292,12 +292,41 @@
             <template>Here is an example of content that is contained in a template tag.</template>
          </div>
          <h1>CSS</h1>
-         <div>
+         <div class="inclusion">
             <h2>CSS Inclusion</h2>
             <p>There are three ways to include CSS.</p>
             <p style="color:blue;">The first way is with inline CSS, used to make this line blue.</p>
-            <p class="cssinc-internal">The second way is with internal CSS with &lt;style&gt;, used to make this line blue.</p>
-            <p class="cssinc-external">The third way is with external CSS in a stylesheet, used to make this line blue.</p>
+            <p class="internal">The second way is with internal CSS with &lt;style&gt;, used to make this line blue.</p>
+            <p class="external">The third way is with external CSS in a stylesheet, used to make this line blue.</p>
+         </div>
+         <div class="selectors">
+            <h2>Selectors</h2>
+            <p>There are many ways to select elements.</p>
+            <p>Each element listed below will have the color blue applied using its named selector.</p>
+            <p class="select-class">Class Selector (.class)</p>
+            <p id="select-id">ID Selector (#id)</p>
+            <div class="select-universal">
+               <p>Universal Selector (*)</p>
+            </div>
+            <div class="select-element">
+               <p>Element Selector (element)</p>
+            </div>
+            <p attribute=foo>Attribute Selector (e.g. [attribute=foo])</p>
+            <p class="select-hover">Pseudo-class Selectors (e.g. p::hover)</p>
+            <p>Grouping / Combinators</p>
+            <p class="select-list1">Selector List (element, element)</p>
+            <p class="select-list2">Selector List (element, element)</p>
+            <div class="select-descendant1">
+               <p class="select-descendant2">Descendant Combinator (element element)</p>
+            </div>
+            <div class="select-child1">
+               <p class="select-child2">Child Combinator (element > element)</p>
+            </div>
+            <p class="select-general1"></p>
+            <p class="select-general2">General sibling combinator (element ~ element)</p>
+            <p class="select-adjacent1"></p>
+            <p class="select-adjacent2">Adjacent sibling combinator (element + element)</p>
+            <p class="select-combine1 select-combine2">Combining Two Selectors (element.class)</p>
          </div>
       </main>
       <footer>
